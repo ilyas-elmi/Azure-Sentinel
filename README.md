@@ -1,4 +1,4 @@
-# 🚨 Azure Honeypot Project: Threat Detection with Microsoft Sentinel
+# 🚨 Security Analytics: Geolocation Mapping of Threats in Azure Sentinel:
 
 ## Overview
 This project showcases **real-world threat detection** using an **Azure-hosted honeypot** to log and analyze **failed RDP login attempts**. By exposing a virtual machine to the internet and integrating it with **Microsoft Sentinel**, the project simulates cyber attacks and provides insights into **attacker behavior, geolocation, and frequency**.
