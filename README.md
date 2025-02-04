@@ -1,1 +1,1 @@
-# Azure-Sentinel
+# Azure Sentinel Honeypot Project
