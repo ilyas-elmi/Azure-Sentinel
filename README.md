@@ -33,3 +33,13 @@ This project showcases **real-world threat detection** using an **Azure-hosted h
 - **SSH honeypot** expansion for wider threat coverage.
 - **Integration with Azure Logic Apps** for automated threat responses.
 
+```mermaid
+graph TD
+    A["Local Workspace (VM)"] -->|Event Logs 4625, 4624| B["Log Analytics Agent (MMA/DCR)"]
+    B -->|Sends Logs| C["Log Analytics Workspace"]
+    C -->|Stores Logs| D["Custom Log (RDP_Logs_CL)"]
+    C -->|Provides Logs| E["Sentinel Data Connector"]
+    D -->|Queryable in KQL| F["Log Analytics Queries"]
+    E -->|Ingests Security Logs| G["Microsoft Sentinel"]
+    G -->|Threat Detection & Alerts| H["Sentinel Analytics Rules"]
+    G -->|Data Visualization| I["Sentinel Workbooks (Map)"]
