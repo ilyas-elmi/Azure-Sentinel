@@ -10,19 +10,19 @@ This folder contains screenshots captured during the honeypot project that demon
 This screenshot shows the initial view of failed RDP login events in Log Analytics. It demonstrates that our system is correctly capturing Event ID 4625 (failed logins).
 
 ### Logs-2
-![Logs-2](./Logs-2.png)
+![Logs-2](../Screenshots/Logs-2.png)
 **Description:**  
 This image displays detailed log entries, including the enriched data (such as geolocation information) that our PowerShell script appends to the logs.
 
 ## Map Visualizations
 
 ### Map-1
-![Map-1](./Map-1.png)
+![Map-1](../Screenshots/Map-1.png)
 **Description:**  
 This map visualization in Microsoft Sentinel displays the geographic distribution of failed RDP logins. It aggregates events by latitude and longitude to show where the attacks are originating.
 
 ### Map-2
-![Map-2](./Map-2.png)
+![Map-2](../Screenshots/Map-2.png)
 **Description:**  
 This refined map view includes labels with country and state information along with the attacker’s IP, making it easier to quickly identify the regions from which attacks originate.
 
