@@ -21,10 +21,7 @@ This screenshot shows the initial view of failed RDP login events in Log Analyti
 **Description:**  
 This map visualization in Microsoft Sentinel displays the geographic distribution of failed RDP logins. It aggregates events by latitude and longitude to show where the attacks are originating.
 
-### Map-2
-![Map-2](../Screenshots/Map-2.png)
-**Description:**  
-This refined map view includes labels with country and state information along with the attacker’s IP, making it easier to quickly identify the regions from which attacks originate.
+---
 
 ## Interpretation and Analysis
 
