@@ -7,12 +7,12 @@ This folder contains screenshots captured during the honeypot project that demon
 ### Logs-1
 ![Logs-1](../Screenshots/Logs-1.png)
 **Description:**  
-This screenshot shows the initial view of failed RDP login events in Log Analytics. It demonstrates that our system is correctly capturing Event ID 4625 (failed logins).
+This image displays detailed log entries, including the enriched data (such as geolocation information) that our PowerShell script appends to the logs.
 
 ### Logs-2
 ![Logs-2](../Screenshots/Logs-2.png)
 **Description:**  
-This image displays detailed log entries, including the enriched data (such as geolocation information) that our PowerShell script appends to the logs.
+This screenshot shows the initial view of failed RDP login events in Log Analytics. It demonstrates that our system is correctly capturing Event ID 4625 (failed logins).
 
 ## Map Visualizations
 
