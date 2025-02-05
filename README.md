@@ -15,7 +15,7 @@ This project showcases **real-world threat detection** using an **Azure-hosted h
 - A **public-facing Windows VM** acts as a honeypot to attract malicious RDP login attempts.
 - **Failed logins (Event ID 4625)** are captured and ingested into **Log Analytics**.
 - A **custom PowerShell script** enriches the logs with **geolocation data**.
-- **Microsoft Sentinel dashboards** visualize attack trends, locations, and sources.
+- **Microsoft Sentinel dashboards** visualise attack trends, locations, and sources.
 
 ## Key Findings
 ✔️ Identified **failed login attempts** from multiple global locations.  
