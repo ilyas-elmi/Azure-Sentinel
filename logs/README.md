@@ -12,7 +12,7 @@ This image displays detailed log entries, including the enriched data (such as g
 ### Logs-2
 ![Logs-2](../Screenshots/Logs-2.png)
 **Description:**  
-This screenshot shows the initial view of failed RDP login events in Log Analytics. It demonstrates that our system is correctly capturing Event ID 4625 (failed logins).
+This screenshot shows the initial view of failed RDP login events in Log Analytics. It demonstrates that our system is correctly capturing Event ID 4625 and 4624
 
 ## Map Visualizations
 
