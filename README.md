@@ -30,7 +30,6 @@ This project showcases **real-world threat detection** using an **Azure-hosted h
 
 ## Future Enhancements
 - **Automated alerts** for high-volume attacks.
-- **SSH honeypot** expansion for wider threat coverage.
 - **Integration with Azure Logic Apps** for automated threat responses.
 
 ```mermaid
