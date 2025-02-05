@@ -5,7 +5,7 @@ This folder contains screenshots captured during the honeypot project that demon
 ## Screenshots of Logs
 
 ### Logs-1
-![Logs-1](./Screenshots/Logs-1)
+![Logs-1](./Screenshots/Logs-1.png)
 **Description:**  
 This screenshot shows the initial view of failed RDP login events in Log Analytics. It demonstrates that our system is correctly capturing Event ID 4625 (failed logins).
 
