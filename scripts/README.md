@@ -50,17 +50,3 @@ To overcome these limitations, we created a custom log:
 - **Enhanced Visualization:** With fields like latitude and longitude, you can plot data on a map in Sentinel Workbooks, aiding in threat analysis and response.
 - **Actionable Intelligence:** The enriched data helps trigger alerts and build analytic rules within Sentinel for better incident response.
 
-## Related Files
-- **PowerShell Script:** [`failed_rdp_logger.ps1`](./failed_rdp_logger.ps1)
-
-## Next Steps
-- Ensure the **PowerShell script is running on the VM** so that `C:\ProgramData\failed_rdp.log` updates continuously.
-- Confirm that **Log Analytics is correctly ingesting the log file** as the custom log `RDP_Logs_CL`.
-- Use the provided **KQL queries** to visualize and analyze the data in Sentinel.
-- Monitor the enriched logs to detect and respond to malicious RDP login attempts.
-
-This setup ensures your Sentinel dashboard has enriched, actionable security data for effective threat analysis and incident response.
-
----
-
-*End of Scripts README*
