@@ -31,6 +31,6 @@ This map visualization in Microsoft Sentinel displays the geographic distributio
 - **Logs-2:**  
   Confirms that the PowerShell script successfully enriches these logs with additional metadata, such as geolocation (latitude, longitude, state, and country).
 
-- **Map-1 & Map-2:**  
+- **Map-1:**  
   These visualizations in Sentinel help in understanding the geographic distribution of the attacks, providing valuable insights into where the threat is coming from. This information is crucial for threat analysis and incident response.
 
